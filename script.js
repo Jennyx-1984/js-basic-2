@@ -72,16 +72,16 @@ if (pet2 === "perro") {
 
 switch (pet) {
     case "perro":
-        console.log("Tengo un perro");
+        console.log("Tengo un perro (usando switch)");
         break;
     case "gato":
-        console.log("Tengo un gato");
+        console.log("Tengo un gato (usando switch)");
         break;
     case "pájaro":
-        console.log("Tengo un pájaro");
+        console.log("Tengo un pájaro (usando switch)");
         break;
     default:
-        console.log("No tengo una mascota convencional");
+        console.log("No tengo una mascota convencional (usando switch)");
         break;
 }
 
@@ -103,8 +103,10 @@ console.log(result2);
 
 
 //Ejercicio 8: Escribe un programa que al darle la constante 'value' imprima en consola "Es un número" cuando el valor sea de tipo number, "Es un string" cuando el valor sea de tipo string o si no es ni uno ni otro que imprima "No es ni número ni string". Puedes hacerlo con cualquier tipo de condicional.
-
+//cambiar según el tipo de dato que quieras probar
 const value = '1';
+//const value= 10;
+//const value= true;
 if (typeof value === 'number') {
     console.log("Es un número");
 } else if (typeof value === 'string') {
