@@ -21,7 +21,7 @@ if (age >= 18) {
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
 //age = 12;
 //no se puede cambiar el valor de una constante, por lo que se crea una nueva constante
-
+console.log("Al ser age una constante, no podemos modificar su valor, así que creamos otra constante y le otorgamos el valor de 12");
 const age2 = 12
 if (age2 >= 18) {
     console.log("Eres mayor de edad");
@@ -56,7 +56,7 @@ if (pet === "perro") {
 } */  
 
 //como en el caso anterior, no se puede cambiar el valor de una constante, por lo que se crea una nueva constante
-
+console.log("Como en el caso anterior, no se puede cambiar el valor de una constante, por lo que se crea otra nueva constante");
 const pet2 = "serpiente";
 if (pet2 === "perro") {
     console.log("Tengo un perro");  
@@ -96,6 +96,7 @@ console.log(result)
 //Ejercicio 7: cambia el valor de weather a "frío" y mira el resultado en consola para comprobar que tu código funciona bien.
 //weather = "frío";
 //no se pueden sobreescribir constantes, por lo que se crea una nueva constante
+console.log("no se pueden sobreescribir constantes, por lo que se crea una nueva constante");
 const weather2 = "frío";
 const result2 = (weather2 === "soleado") ? "Me vestiré con un vestido" : "Me vestiré con pantalón";
 
@@ -104,6 +105,7 @@ console.log(result2);
 
 //Ejercicio 8: Escribe un programa que al darle la constante 'value' imprima en consola "Es un número" cuando el valor sea de tipo number, "Es un string" cuando el valor sea de tipo string o si no es ni uno ni otro que imprima "No es ni número ni string". Puedes hacerlo con cualquier tipo de condicional.
 //cambiar según el tipo de dato que quieras probar
+console.log("Cambiar en el código según el tipo de dato que se quiera probar, por defecto está puesto la constante value");
 const value = '1';
 //const value= 10;
 //const value= true;
