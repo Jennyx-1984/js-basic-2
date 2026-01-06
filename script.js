@@ -196,10 +196,10 @@ console.log(saludar("Cristina"));
 //Ejercicio 15: Calcular el Área de un Rectángulo
 //Crea una función llamada calcularAreaRectangulo que tome dos parámetros (ancho y alto) y devuelva el área del rectángulo. Luego, llama a la función con diferentes valores de ancho y alto y muestra el resultado en la consola.
 function calcularAreaRectangulo(ancho, alto) {
-    return "AREA RECTANGULO=" + ancho * alto;
+    return ancho * alto;
 }
-console.log(calcularAreaRectangulo(5, 10));
-console.log(calcularAreaRectangulo(7, 3));
-console.log(calcularAreaRectangulo(4, 6));
+console.log("ÁREA RECTÁNGULO=",calcularAreaRectangulo(5, 10));
+console.log("ÁREA RECTÁNGULO=",calcularAreaRectangulo(7, 3));
+console.log("ÁREA RECTÁNGULO=",calcularAreaRectangulo(4, 6));
 
 
